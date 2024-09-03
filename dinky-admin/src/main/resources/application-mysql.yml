@@ -17,7 +17,7 @@
 
 spring:
   datasource:
-    url: jdbc:mysql://${MYSQL_ADDR:127.0.0.1:3306}/${MYSQL_DATABASE:dinky}?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
-    username: ${MYSQL_USERNAME:dinky}
-    password: ${MYSQL_PASSWORD:dinky}
+    url: jdbc:mysql://10.94.78.10:13306/dinky?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+    username: root
+    password: sbux@c9JkU6LxW#pE4yZ2
     driver-class-name: com.mysql.cj.jdbc.Driver
